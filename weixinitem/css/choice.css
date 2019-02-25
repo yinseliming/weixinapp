@@ -1,0 +1,93 @@
+body {
+  font-size: 50px;
+}
+.box {
+  width: 7.5rem;
+  /*谷歌*/
+  FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#740AF2, endColorStr=#956CC9);
+  /*IE 6 7 8*/
+  background: -ms-linear-gradient(top, #740AF2, #956CC9);
+  /* IE 10 */
+  background: -moz-linear-gradient(top, #740AF2, #956CC9);
+  /*火狐*/
+  background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#740AF2), to(#956CC9));
+  /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-linear-gradient(top, #740AF2, #956CC9);
+  /*Safari5.1 Chrome 10+*/
+  background: -o-linear-gradient(top, #740AF2, #956CC9);
+  /*Opera 11.10+*/
+}
+.box .toptitle {
+  padding-top: 1.08rem;
+  text-align: center;
+  font-size: 0.34rem;
+  color: #fefefe;
+}
+.box .content {
+  margin-top: 1.43rem;
+}
+.box .content .contentlist {
+  margin: 0 auto;
+  width: 5.93rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box .content .contentlist .everymodul {
+  width: 1.21rem;
+  height: 1.2rem;
+}
+.box .content .contentlist .everymodul img {
+  width: 1.21rem;
+  height: 1.2rem;
+}
+.box .content .contentword {
+  margin: 0 auto;
+  margin-top: 0.17rem;
+  width: 5.93rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box .content .contentword .wordlist {
+  text-align: center;
+  color: #fefefe;
+}
+.box .content .contentword .wordlist p {
+  white-space: nowrap;
+}
+.box .content .contentword .wordlist .listname {
+  font-size: 0.26rem;
+}
+.box .content .contentword .wordlist .englishname {
+  margin-top: 0.12rem;
+  font-size: 0.22rem;
+}
+.box .content .contentword .wordlist .listdate {
+  margin-top: 0.09rem;
+  font-size: 0.22rem;
+}
+.box .content .contenemtop {
+  margin-top: 0.37rem;
+}
+.box .backhand {
+  margin: 0 auto;
+  margin-top: 1.69rem;
+  padding-bottom: 1.34rem;
+}
+.box .backhand .backborder {
+  position: relative;
+  margin: 0 auto;
+  width: 1rem;
+  height: 1rem;
+  border: 4px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.box .backhand .backborder span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.29rem;
+  margin-top: -0.46rem;
+}
